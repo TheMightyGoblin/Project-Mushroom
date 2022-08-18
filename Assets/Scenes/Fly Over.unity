@@ -509,7 +509,7 @@ GameObject:
   - component: {fileID: 1395042950}
   m_Layer: 0
   m_Name: Landing Pad
-  m_TagString: Untagged
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -606,7 +606,7 @@ GameObject:
   - component: {fileID: 1492888589}
   m_Layer: 0
   m_Name: Launch Pad
-  m_TagString: Untagged
+  m_TagString: Friendly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -689,6 +689,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1864452816 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2620227511099410282, guid: 9c07c1b3fd6b8394eab26d8a77b590b4, type: 3}
+  m_PrefabInstance: {fileID: 1924560611}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1864452826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864452816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0170957fc1d0f64e8617013387ef7a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1924560611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -696,13 +713,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1876699491, guid: 9c07c1b3fd6b8394eab26d8a77b590b4, type: 3}
-      propertyPath: m_Drag
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 1876699491, guid: 9c07c1b3fd6b8394eab26d8a77b590b4, type: 3}
-      propertyPath: m_Constraints
-      value: 56
+    - target: {fileID: 607228703, guid: 9c07c1b3fd6b8394eab26d8a77b590b4, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2620227511099410282, guid: 9c07c1b3fd6b8394eab26d8a77b590b4, type: 3}
       propertyPath: m_Name
